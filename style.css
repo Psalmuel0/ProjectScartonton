@@ -1,0 +1,2452 @@
+ @font-face {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtU.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtU.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfsunDXbtU.woff)
+          format("woff");
+      }
+
+      @font-face {
+        font-family: "Open Sans";
+        font-style: italic;
+        font-weight: 300;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkWVAexg.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: italic;
+        font-weight: 400;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAexg.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: italic;
+        font-weight: 700;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjWVAexg.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVQ.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVQ.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVQ.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 800;
+        font-stretch: normal;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4gaVQ.woff)
+          format("woff");
+      }
+
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aXw.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://img1.wsimg.com/gfonts/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXw.woff)
+          format("woff");
+      }
+
+      .x {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .x *,
+      .x :after,
+      .x :before {
+        box-sizing: inherit;
+      }
+      .x-el a[href^="mailto:"]:not(.x-el),
+      .x-el a[href^="tel:"]:not(.x-el) {
+        color: inherit;
+        font-size: inherit;
+        text-decoration: inherit;
+      }
+      .x-el-article,
+      .x-el-aside,
+      .x-el-details,
+      .x-el-figcaption,
+      .x-el-figure,
+      .x-el-footer,
+      .x-el-header,
+      .x-el-hgroup,
+      .x-el-main,
+      .x-el-menu,
+      .x-el-nav,
+      .x-el-section,
+      .x-el-summary {
+        display: block;
+      }
+      .x-el-audio,
+      .x-el-canvas,
+      .x-el-progress,
+      .x-el-video {
+        display: inline-block;
+        vertical-align: baseline;
+      }
+      .x-el-audio:not([controls]) {
+        display: none;
+        height: 0;
+      }
+      .x-el-template {
+        display: none;
+      }
+      .x-el-a {
+        background-color: transparent;
+        color: inherit;
+      }
+      .x-el-a:active,
+      .x-el-a:hover {
+        outline: 0;
+      }
+      .x-el-abbr[title] {
+        border-bottom: 1px dotted;
+      }
+      .x-el-b,
+      .x-el-strong {
+        font-weight: 700;
+      }
+      .x-el-dfn {
+        font-style: italic;
+      }
+      .x-el-mark {
+        background: #ff0;
+        color: #000;
+      }
+      .x-el-small {
+        font-size: 80%;
+      }
+      .x-el-sub,
+      .x-el-sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+      }
+      .x-el-sup {
+        top: -0.5em;
+      }
+      .x-el-sub {
+        bottom: -0.25em;
+      }
+      .x-el-img {
+        vertical-align: middle;
+        border: 0;
+      }
+      .x-el-svg:not(:root) {
+        overflow: hidden;
+      }
+      .x-el-figure {
+        margin: 0;
+      }
+      .x-el-hr {
+        box-sizing: content-box;
+        height: 0;
+      }
+      .x-el-pre {
+        overflow: auto;
+      }
+      .x-el-code,
+      .x-el-kbd,
+      .x-el-pre,
+      .x-el-samp {
+        font-family: monospace, monospace;
+        font-size: 1em;
+      }
+      .x-el-button,
+      .x-el-input,
+      .x-el-optgroup,
+      .x-el-select,
+      .x-el-textarea {
+        color: inherit;
+        font: inherit;
+        margin: 0;
+      }
+      .x-el-button {
+        overflow: visible;
+      }
+      .x-el-button,
+      .x-el-select {
+        text-transform: none;
+      }
+      .x-el-button,
+      .x-el-input[type="button"],
+      .x-el-input[type="reset"],
+      .x-el-input[type="submit"] {
+        -webkit-appearance: button;
+        cursor: pointer;
+      }
+      .x-el-button[disabled],
+      .x-el-input[disabled] {
+        cursor: default;
+      }
+      .x-el-button::-moz-focus-inner,
+      .x-el-input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+      }
+      .x-el-input {
+        line-height: normal;
+      }
+      .x-el-input[type="checkbox"],
+      .x-el-input[type="radio"] {
+        box-sizing: border-box;
+        padding: 0;
+      }
+      .x-el-input[type="number"]::-webkit-inner-spin-button,
+      .x-el-input[type="number"]::-webkit-outer-spin-button {
+        height: auto;
+      }
+      .x-el-input[type="search"] {
+        -webkit-appearance: textfield;
+        box-sizing: content-box;
+      }
+      .x-el-input[type="search"]::-webkit-search-cancel-button,
+      .x-el-input[type="search"]::-webkit-search-decoration {
+        -webkit-appearance: none;
+      }
+      .x-el-textarea {
+        border: 0;
+      }
+      .x-el-fieldset {
+        border: 1px solid silver;
+        margin: 0 2px;
+        padding: 0.35em 0.625em 0.75em;
+      }
+      .x-el-legend {
+        border: 0;
+        padding: 0;
+      }
+      .x-el-textarea {
+        overflow: auto;
+      }
+      .x-el-optgroup {
+        font-weight: 700;
+      }
+      .x-el-table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      .x-el-td,
+      .x-el-th {
+        padding: 0;
+      }
+      .x {
+        -webkit-font-smoothing: antialiased;
+      }
+      .x-el-hr {
+        border: 0;
+      }
+      .x-el-fieldset,
+      .x-el-input,
+      .x-el-select,
+      .x-el-textarea {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .x-el-fieldset,
+      .x-el-input[type="email"],
+      .x-el-input[type="text"],
+      .x-el-textarea {
+        width: 100%;
+      }
+      .x-el-label {
+        vertical-align: middle;
+      }
+      .x-el-input {
+        border-style: none;
+        padding: 0.5em;
+        vertical-align: middle;
+      }
+      .x-el-select:not([multiple]) {
+        vertical-align: middle;
+      }
+      .x-el-textarea {
+        line-height: 1.75;
+        padding: 0.5em;
+      }
+      .x-el.d-none {
+        display: none !important;
+      }
+      .sideline-footer {
+        margin-top: auto;
+      }
+      .disable-scroll {
+        touch-action: none;
+        overflow: hidden;
+        position: fixed;
+        max-width: 100vw;
+      }
+      @-webkit-keyframes loaderscale {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        45% {
+          transform: scale(0.1);
+          opacity: 0.7;
+        }
+        80% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+      @keyframes loaderscale {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        45% {
+          transform: scale(0.1);
+          opacity: 0.7;
+        }
+        80% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+      .x-loader svg {
+        display: inline-block;
+      }
+      .x-loader svg:first-child {
+        -webkit-animation: loaderscale 0.75s cubic-bezier(0.2, 0.68, 0.18, 1.08) -0.24s
+          infinite;
+        animation: loaderscale 0.75s cubic-bezier(0.2, 0.68, 0.18, 1.08) -0.24s infinite;
+      }
+      .x-loader svg:nth-child(2) {
+        -webkit-animation: loaderscale 0.75s cubic-bezier(0.2, 0.68, 0.18, 1.08) -0.12s
+          infinite;
+        animation: loaderscale 0.75s cubic-bezier(0.2, 0.68, 0.18, 1.08) -0.12s infinite;
+      }
+      .x-loader svg:nth-child(3) {
+        -webkit-animation: loaderscale 0.75s cubic-bezier(0.2, 0.68, 0.18, 1.08)
+          0s infinite;
+        animation: loaderscale 0.75s cubic-bezier(0.2, 0.68, 0.18, 1.08) 0s
+          infinite;
+      }
+      .x-icon > svg {
+        transition: transform 0.33s ease-in-out;
+      }
+      .x-icon > svg.rotate-90 {
+        transform: rotate(-90deg);
+      }
+      .x-icon > svg.rotate90 {
+        transform: rotate(90deg);
+      }
+      .x-icon > svg.rotate-180 {
+        transform: rotate(-180deg);
+      }
+      .x-icon > svg.rotate180 {
+        transform: rotate(180deg);
+      }
+      .x-rt ol,
+      .x-rt ul {
+        text-align: left;
+      }
+      .x-rt p {
+        margin: 0;
+      }
+      .mte-inline-block {
+        display: inline-block;
+      }
+      @media only screen and (min-device-width: 1025px) {
+        :root select,
+        _::-webkit-full-page-media,
+        _:future {
+          font-family: sans-serif !important;
+        }
+      }
+    
+    
+      .x .c1-1{letter-spacing:normal}
+      .x .c1-2{text-transform:none}
+      .x .c1-3{background-color:rgb(255, 255, 255)
+    }.x .c1-4{width:100%}
+    .x .c1-5 > div{position:relative}.x .c1-6 > div{overflow:hidden}.x .c1-7 > div{margin-top:auto}.x .c1-8 > div{margin-right:auto}.x .c1-9 > div{margin-bottom:auto}.x .c1-a > div{margin-left:auto}.x .c1-b{font-family:'Open Sans', arial, sans-serif}.x .c1-c{font-size:16px}.x .c1-h{background-color:rgb(22, 22, 22)}.x .c1-i{padding-top:56px}.x .c1-j{padding-bottom:56px}.x .c1-k{overflow:hidden}.x .c1-l{padding:0px !important}.x .c1-o{position:relative}.x .c1-p{flex-grow:1}.x .c1-q{display:flex}.x .c1-r{align-items:center}.x .c1-s{justify-content:flex-start}.x .c1-t{flex-direction:column}.x .c1-u{min-height:300px}.x .c1-v{background-position:center}.x .c1-w{background-size:auto, cover}.x .c1-x{background-blend-mode:normal}.x .c1-y{background-repeat:no-repeat}.x .c1-z{text-shadow:none}.x .c1-1q{max-width:100%}.x .c1-1r{margin-left:0}.x .c1-1s{margin-right:0}.x .c1-1t{margin-top:0}.x .c1-1u{margin-bottom:0}.x .c1-1v{vertical-align:middle}.x .c1-1w{aspect-ratio:auto}.x .c1-1x{border-style:solid}.x .c1-1y{border-color:white}.x .c1-1z{border-top-width:0px}.x .c1-20{border-right-width:0px}.x .c1-21{border-bottom-width:0px}.x .c1-22{border-left-width:0px}.x .c1-23{z-index:-1}.x .c1-24{opacity:0}.x .c1-25{min-height:60px}.x .c1-26{border-radius:0px}.x .c1-27{[object -object]:0px}.x .c1-2b{display:none}.x .c1-2c{justify-content:center}.x .c1-2q{padding-left:24px}.x .c1-2r{padding-right:24px}.x .c1-30{padding-top:24px}.x .c1-31{padding-bottom:24px}.x .c1-32{text-align:center}.x .c1-3b{margin-bottom:8px}.x .c1-3c{word-wrap:break-word}.x .c1-3d{overflow-wrap:break-word}.x .c1-3e{display:block}.x .c1-3f{width:auto}.x .c1-3g{line-height:1.2}.x .c1-3h{white-space:pre-line}.x .c1-3i{font-size:40px}.x .c1-3j{display:inline-block}.x .c1-3k{font-family:'Playfair Display', Georgia, serif}.x .c1-3l{color:rgb(255, 255, 255)}.x .c1-3m{font-weight:400}.x .c1-3t{word-wrap:normal !important}.x .c1-3u{overflow-wrap:normal !important}.x .c1-3v{visibility:hidden}.x .c1-3w{position:absolute}.x .c1-3x{overflow:visible}.x .c1-3y{left:0px}.x .c1-3z{font-size:32px}.x .c1-44{font-size:28px}.x .c1-49{margin-top:24px}.x .c1-4a{margin-bottom:24px}.x .c1-4b{flex-wrap:wrap}.x .c1-4c{column-gap:24px}.x .c1-4d{row-gap:24px}.x .c1-4h{letter-spacing:0.071em}.x .c1-4i{text-transform:uppercase}.x .c1-4j{cursor:pointer}.x .c1-4k{border-style:none}.x .c1-4l{display:inline-flex}.x .c1-4m{text-decoration:none}.x .c1-4n{padding-left:32px}.x .c1-4o{padding-right:32px}.x .c1-4p{padding-top:8px}.x .c1-4q{padding-bottom:8px}.x .c1-4r{min-height:56px}.x .c1-4s{border-radius:4px}.x .c1-4t{color:rgb(0, 0, 0)}.x .c1-4u{font-weight:700}.x .c1-4v{font-size:14px}.x .c1-4w:hover{background-color:rgb(255, 255, 255)}.x .c1-54{color:rgb(226, 226, 226)}.x .c1-55:hover{background-color:rgb(212, 212, 212)}.x .c1-56{background-color:rgb(0, 0, 0)}.x .c1-57{margin-left:auto}.x .c1-58{margin-right:auto}.x .c1-59{box-sizing:border-box}.x .c1-5a{flex-direction:row}.x .c1-5b{margin-right:-12px}.x .c1-5c{margin-left:-12px}.x .c1-5h{flex-shrink:1}.x .c1-5i{flex-basis:0%}.x .c1-5j{padding-top:0}.x .c1-5k{padding-right:12px}.x .c1-5l{padding-bottom:0}.x .c1-5m{padding-left:12px}.x .c1-5x > *{max-width:100%}.x .c1-5y > :nth-child(n){margin-bottom:24px}.x .c1-5z  > :last-child{margin-bottom:0 !important}.x .c1-62{line-height:1.25}.x .c1-63{line-height:1.5}.x .c1-64 > p > ol{text-align:left}.x .c1-65 > p > ol{display:block}.x .c1-66 > p > ol{padding-left:1.3em}.x .c1-67 > p > ol{margin-left:16px}.x .c1-68 > p > ol{margin-right:16px}.x .c1-69 > p > ol{margin-top:auto}.x .c1-6a > p > ol{margin-bottom:auto}.x .c1-6b > p > ul{text-align:left}.x .c1-6c > p > ul{display:block}.x .c1-6d > p > ul{padding-left:1.3em}.x .c1-6e > p > ul{margin-left:16px}.x .c1-6f > p > ul{margin-right:16px}.x .c1-6g > p > ul{margin-top:auto}.x .c1-6h > p > ul{margin-bottom:auto}.x .c1-6i > ul{text-align:left}.x .c1-6j > ul{display:block}.x .c1-6k > ul{padding-left:1.3em}.x .c1-6l > ul{margin-left:16px}.x .c1-6m > ul{margin-right:16px}.x .c1-6n > ul{margin-top:auto}.x .c1-6o > ul{margin-bottom:auto}.x .c1-6p > ol{text-align:left}.x .c1-6q > ol{display:block}.x .c1-6r > ol{padding-left:1.3em}.x .c1-6s > ol{margin-left:16px}.x .c1-6t > ol{margin-right:16px}.x .c1-6u > ol{margin-top:auto}.x .c1-6v > ol{margin-bottom:auto}.x .c1-6w{color:rgb(145, 145, 145)}.x .c1-6x{letter-spacing:inherit}.x .c1-6y{text-transform:inherit}.x .c1-6z{font-size:inherit !important}.x .c1-70{color:inherit}.x .c1-71{line-height:inherit}.x .c1-72{font-weight:inherit}.x .c1-73{font-style:italic}.x .c1-74{text-decoration:line-through}.x .c1-75{text-decoration:underline}.x .c1-76{padding-left:0px}.x .c1-77{padding-right:0px}.x .c1-7b{flex-shrink:0}.x .c1-7i{min-height:inherit}.x .c1-7j{text-align:left}.x .c1-7m{line-height:1.4}.x .c1-7n{margin-bottom:40px}.x .c1-7o{font-size:unset}.x .c1-7p{font-family:unset}.x .c1-7q{letter-spacing:unset}.x .c1-7r{text-transform:unset}.x .c1-7s{line-height:0px}.x .c1-7t{border-color:rgb(27, 27, 27)}.x .c1-7u{border-bottom-width:2px}.x .c1-7v{width:50px}.x .c1-7w{align-items:flex-start}.x .c1-7x{font-size:18px}.x .c1-82 > *{flex-grow:1}.x .c1-87{max-height:unset}.x .c1-89{text-shadow:0px 2px 30px rgba(0, 0, 0, 0.12)}.x .c1-8a{background-position:50% 50%}.x .c1-bf{row-gap:16px}.x .c1-bg{flex-grow:3}.x .c1-bh{flex-basis:100%}.x .c1-bk{color:rgb(150, 150, 150)}.x .c1-bl{position:fixed}.x .c1-bm{right:0px}.x .c1-bn{z-index:10000}.x .c1-bo{height:auto}.x .c1-bp{overflow-y:auto}.x .c1-bq{transition:all 1s ease-in}.x .c1-br{box-shadow:0 2px 6px 0px rgba(0,0,0,0.3)}.x .c1-bs{contain:content}.x .c1-bt{bottom:-500px}.x .c1-c1{font-size:22px}.x .c1-c6{max-height:300px}.x .c1-c8{justify-content:space-between}.x .c1-c9{margin-bottom:4px}.x .c1-ca{word-break:break-word}.x .c1-cb{flex-basis:50%}.x .c1-cc{padding-left:16px}.x .c1-cd{padding-right:16px}.x .c1-ce{padding-top:4px}.x .c1-cf{padding-bottom:4px}.x .c1-cg{min-height:40px}.x .c1-ch{font-size:12px}.x .c1-ci:nth-child(2){margin-left:24px}
+    
+    
+      @media (max-width: 450px) {
+        .x .c1-14 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 2),
+        (max-width: 450px) and (min-resolution: 192dpi) {
+        .x .c1-15 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 3),
+        (max-width: 450px) and (min-resolution: 288dpi) {
+        .x .c1-16 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) {
+        .x .c1-17 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 192dpi) {
+        .x .c1-18 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 288dpi) {
+        .x .c1-19 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+            
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-1a {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 192dpi) {
+        .x .c1-1b {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 288dpi) {
+        .x .c1-1c {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) {
+        .x .c1-1d {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 192dpi) {
+        .x .c1-1e {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 288dpi) {
+        .x .c1-1f {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) {
+        .x .c1-1g {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 192dpi) {
+        .x .c1-1h {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 288dpi) {
+        .x .c1-1i {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) {
+        .x .c1-1j {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 192dpi) {
+        .x .c1-1k {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 288dpi) {
+        .x .c1-1l {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+           
+        }
+      }
+      @media (min-width: 1921px) {
+        .x .c1-1m {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1921px) and (min-resolution: 192dpi) {
+        .x .c1-1n {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1921px) and (min-resolution: 288dpi) {
+        .x .c1-1o {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.25) 0%,
+              rgba(0, 0, 0, 0.25) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) {
+        .x .c1-8b {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 2),
+        (max-width: 450px) and (min-resolution: 192dpi) {
+        .x .c1-8c {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 3),
+        (max-width: 450px) and (min-resolution: 288dpi) {
+        .x .c1-8d {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) {
+        .x .c1-8e {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 192dpi) {
+        .x .c1-8f {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 288dpi) {
+        .x .c1-8g {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-8h {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 192dpi) {
+        .x .c1-8i {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 288dpi) {
+        .x .c1-8j {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) {
+        .x .c1-8k {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 192dpi) {
+        .x .c1-8l {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 288dpi) {
+        .x .c1-8m {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) {
+        .x .c1-8n {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 192dpi) {
+        .x .c1-8o {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 288dpi) {
+        .x .c1-8p {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ), url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) {
+        .x .c1-8q {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 192dpi) {
+        .x .c1-8r {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 288dpi) {
+        .x .c1-8s {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) {
+        .x .c1-8t {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1921px) and (min-resolution: 192dpi) {
+        .x .c1-8u {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1921px) and (min-resolution: 288dpi) {
+        .x .c1-8v {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) {
+        .x .c1-8w {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 2),
+        (max-width: 450px) and (min-resolution: 192dpi) {
+        .x .c1-8x {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 3),
+        (max-width: 450px) and (min-resolution: 288dpi) {
+        .x .c1-8y {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) {
+        .x .c1-8z {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 192dpi) {
+        .x .c1-90 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 288dpi) {
+        .x .c1-91 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-92 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+      }
+    }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 192dpi) {
+        .x .c1-93 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 288dpi) {
+        .x .c1-94 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) {
+        .x .c1-95 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 192dpi) {
+        .x .c1-96 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 288dpi) {
+        .x .c1-97 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) {
+        .x .c1-98 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 192dpi) {
+        .x .c1-99 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 288dpi) {
+        .x .c1-9a {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) {
+        .x .c1-9b {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 192dpi) {
+        .x .c1-9c {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 288dpi) {
+        .x .c1-9d {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);        }
+      }
+      @media (min-width: 1921px) {
+        .x .c1-9e {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1921px) and (min-resolution: 192dpi) {
+        .x .c1-9f {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1921px) and (min-resolution: 288dpi) {
+        .x .c1-9g {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+      }
+      @media (max-width: 450px) {
+        .x .c1-9h {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 2),
+        (max-width: 450px) and (min-resolution: 192dpi) {
+        .x .c1-9i {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 3),
+        (max-width: 450px) and (min-resolution: 288dpi) {
+        .x .c1-9j {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) {
+        .x .c1-9k {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 192dpi) {
+        .x .c1-9l {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 288dpi) {
+        .x .c1-9m {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-9n {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 192dpi) {
+        .x .c1-9o {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 288dpi) {
+        .x .c1-9p {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) {
+        .x .c1-9q {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg)
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 192dpi) {
+        .x .c1-9r {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 288dpi) {
+        .x .c1-9s {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) {
+        .x .c1-9t {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 192dpi) {
+        .x .c1-9u {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 288dpi) {
+        .x .c1-9v {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) {
+        .x .c1-9w {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 192dpi) {
+        .x .c1-9x {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 288dpi) {
+        .x .c1-9y {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) {
+        .x .c1-9z {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1921px) and (min-resolution: 192dpi) {
+        .x .c1-a0 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1921px) and (min-resolution: 288dpi) {
+        .x .c1-a1 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) {
+        .x .c1-a2 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 2),
+        (max-width: 450px) and (min-resolution: 192dpi) {
+        .x .c1-a3 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 3),
+        (max-width: 450px) and (min-resolution: 288dpi) {
+        .x .c1-a4 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) {
+        .x .c1-a5 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 192dpi) {
+        .x .c1-a6 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 288dpi) {
+        .x .c1-a7 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-a8 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 192dpi) {
+        .x .c1-a9 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 288dpi) {
+        .x .c1-aa {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) {
+        .x .c1-ab {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 192dpi) {
+        .x .c1-ac {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 288dpi) {
+        .x .c1-ad {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) {
+        .x .c1-ae {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 192dpi) {
+        .x .c1-af {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+          
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 288dpi) {
+        .x .c1-ag {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) {
+        .x .c1-ah {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 192dpi) {
+        .x .c1-ai {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 288dpi) {
+        .x .c1-aj {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+          
+        }
+      }
+      @media (min-width: 1921px) {
+        .x .c1-ak {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1921px) and (min-resolution: 192dpi) {
+        .x .c1-al {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1921px) and (min-resolution: 288dpi) {
+        .x .c1-am {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) {
+        .x .c1-an {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+
+        
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 2),
+        (max-width: 450px) and (min-resolution: 192dpi) {
+        .x .c1-ao {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (max-width: 450px) and (-webkit-min-device-pixel-ratio: 3),
+        (max-width: 450px) and (min-resolution: 288dpi) {
+        .x .c1-ap {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) {
+        .x .c1-aq {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 192dpi) {
+        .x .c1-ar {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+          
+        }
+      }
+      @media (min-width: 451px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 451px) and (max-width: 767px) and (min-resolution: 288dpi) {
+        .x .c1-as {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-at {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 192dpi) {
+        .x .c1-au {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 768px) and (max-width: 1023px) and (min-resolution: 288dpi) {
+        .x .c1-av {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) {
+        .x .c1-aw {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 192dpi) {
+        .x .c1-ax {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1024px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1024px) and (max-width: 1279px) and (min-resolution: 288dpi) {
+        .x .c1-ay {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) {
+        .x .c1-az {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 192dpi) {
+        .x .c1-b0 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+            
+        }
+      }
+      @media (min-width: 1280px) and (max-width: 1535px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1280px) and (max-width: 1535px) and (min-resolution: 288dpi) {
+        .x .c1-b1 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) {
+        .x .c1-b2 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 192dpi) {
+        .x .c1-b3 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1536px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1536px) and (max-width: 1920px) and (min-resolution: 288dpi) {
+        .x .c1-b4 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) {
+        .x .c1-b5 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 1921px) and (min-resolution: 192dpi) {
+        .x .c1-b6 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+      @media (min-width: 1921px) and (-webkit-min-device-pixel-ratio: 3),
+        (min-width: 1921px) and (min-resolution: 288dpi) {
+        .x .c1-b7 {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0) 100%
+            ),
+            url(images/SCARTON.jpg);
+        }
+      }
+   
+    <style data-glamor="cxs-xs-sheet">
+      @media (max-width: 767px) {
+        .x .c1-m {
+          padding-top: 40px;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-n {
+          padding-bottom: 40px;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-10 {
+          background-position: top;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-11 {
+          background-size: contain;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-28 {
+          height: calc(100vw / 1.4982078853046594);
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-2d {
+          background-color: rgba(22, 22, 22, 0.5);
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-2e {
+          margin-top: 0px;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-2f {
+          margin-right: 0px;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-2g {
+          margin-bottom: 0px;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-2h {
+          margin-left: 0px;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-3n {
+          margin-right: auto;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-3o {
+          margin-left: auto;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-4e {
+          justify-content: center;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-4f {
+          flex-direction: column;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-52 {
+          background-color: rgb(0, 0, 0);
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-60 > :nth-child(n) {
+          margin-bottom: 24px;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-61 > :last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+      @media (max-width: 767px) {
+        .x .c1-83 {
+          order: -1;
+        }
+      }
+  
+    <style data-glamor="cxs-sm-sheet">
+      @media (min-width: 768px) {
+        .x .c1-d {
+          font-size: 16px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-12 {
+          background-position: top;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-13 {
+          background-size: contain;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-29 {
+          height: calc(100vw / 1.4982078853046594);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-2i {
+          background-color: rgba(22, 22, 22, 0.5);
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-2j {
+          margin-top: 0px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-2k {
+          margin-right: 0px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-2l {
+          margin-bottom: 0px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-2m {
+          margin-left: 0px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-2s {
+          width: 100%;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-3p {
+          font-size: 48px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-40 {
+          font-size: 38px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-45 {
+          font-size: 30px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-4g {
+          justify-content: center;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-4x {
+          width: auto;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-4y {
+          font-size: 14px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-53 {
+          background-color: rgb(0, 0, 0);
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5d {
+          margin-top: 0;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5e {
+          margin-right: -24px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5f {
+          margin-bottom: 0;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5g {
+          margin-left: -24px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5n {
+          margin-left: 8.333333333333332%;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5o {
+          flex-basis: 83.33333333333334%;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5p {
+          max-width: 83.33333333333334%;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5q {
+          padding-top: 0;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5r {
+          padding-right: 24px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5s {
+          padding-bottom: 0;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-5t {
+          padding-left: 24px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-7y {
+          font-size: 18px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-84 {
+          order: -1;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .x .c1-88 {
+          height: unset;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-bu {
+          width: 400px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-bv {
+          max-height: 500px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-bw {
+          border-radius: 7px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-bx {
+          margin-top: 24px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-by {
+          margin-right: 24px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-bz {
+          margin-bottom: 24px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-c0 {
+          margin-left: 24px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-c2 {
+          font-size: 22px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-c7 {
+          max-height: 200px;
+        }
+      }
+      @media (min-width: 768px) {
+        .x .c1-cj {
+          font-size: 12px;
+        }
+      }
+   
+    <style data-glamor="cxs-md-sheet">
+      @media (min-width: 1024px) {
+        .x .c1-e {
+          font-size: 16px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-1p {
+          min-height: 66.74641148325358vw;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-2a {
+          display: none;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-2n {
+          margin-top: 15%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-2o {
+          margin-bottom: 0px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-2p {
+          display: flex;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-2t {
+          width: 984px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-2u {
+          justify-content: center;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-2v {
+          margin-left: auto;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-2w {
+          margin-right: auto;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-2x {
+          max-width: 66%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-33 {
+          flex-grow: 1;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-34 {
+          flex-shrink: 0;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-35 {
+          flex-basis: auto;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-36 {
+          padding-top: 56px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-37 {
+          padding-bottom: 56px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-38 {
+          text-align: center;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-39 {
+          max-width: 100%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-3a {
+          align-items: center;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-3q {
+          font-size: 48px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-41 {
+          font-size: 38px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-46 {
+          font-size: 30px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-4z {
+          font-size: 14px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-5u {
+          margin-left: 16.666666666666664%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-5v {
+          flex-basis: 66.66666666666666%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-5w {
+          max-width: 66.66666666666666%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-78 {
+          flex-wrap: nowrap;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-79 {
+          flex-direction: row;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-7a {
+          min-height: 30vh;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-7c:only-child {
+          flex-basis: 100%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-7d:only-child {
+          max-width: 100%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-7e:only-child > * {
+          max-width: 100%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-7f {
+          flex-basis: 50%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-7g {
+          max-width: 50%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-7h > * {
+          max-width: 70%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-7k {
+          text-align: left;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-7l {
+          margin-top: 0;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-7z {
+          font-size: 18px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-85 > * {
+          max-width: 100%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-86 > * {
+          width: 100%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-b8 {
+          margin-bottom: 40px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-b9 {
+          padding-top: 0px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-ba {
+          padding-right: 0px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-bb {
+          padding-bottom: 0px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-bc {
+          padding-left: 0px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-bd {
+          margin-right: 0px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-be {
+          margin-left: 0px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-bi {
+          flex-basis: 0%;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-bj {
+          max-width: none;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-c3 {
+          font-size: 22px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .x .c1-ck {
+          font-size: 12px;
+        }
+      }
+   
+    <style data-glamor="cxs-lg-sheet">
+      @media (min-width: 1280px) {
+        .x .c1-f {
+          font-size: 16px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .x .c1-2y {
+          width: 1160px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .x .c1-3r {
+          font-size: 62px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .x .c1-42 {
+          font-size: 44px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .x .c1-47 {
+          font-size: 32px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .x .c1-50 {
+          font-size: 14px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .x .c1-80 {
+          font-size: 18px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .x .c1-c4 {
+          font-size: 22px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .x .c1-cl {
+          font-size: 12px;
+        }
+      }
+    
+    <style data-glamor="cxs-xl-sheet">
+      @media (min-width: 1536px) {
+        .x .c1-g {
+          font-size: 18px;
+        }
+      }
+      @media (min-width: 1536px) {
+        .x .c1-2z {
+          width: 1280px;
+        }
+      }
+      @media (min-width: 1536px) {
+        .x .c1-3s {
+          font-size: 64px;
+        }
+      }
+      @media (min-width: 1536px) {
+        .x .c1-43 {
+          font-size: 48px;
+        }
+      }
+      @media (min-width: 1536px) {
+        .x .c1-48 {
+          font-size: 36px;
+        }
+      }
+      @media (min-width: 1536px) {
+        .x .c1-51 {
+          font-size: 16px;
+        }
+      }
+      @media (min-width: 1536px) {
+        .x .c1-81 {
+          font-size: 20px;
+        }
+      }
+      @media (min-width: 1536px) {
+        .x .c1-c5 {
+          font-size: 24px;
+        }
+      }
+      @media (min-width: 1536px) {
+        .x .c1-cm {
+          font-size: 14px;
+        }
+      }
+   
+   
+      @keyframes opacity-bounce {
+        0% {
+          opacity: 0;
+          transform: translateY(100%);
+        }
+        60% {
+          transform: translateY(-20%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    
+      .gd-ad-flex-parent {
+                animation-name: opacity-bounce;
+                animation-duration: 800ms;
+                animation-delay: 400ms;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease;
+                opacity: 0;}
+  
+      .page-inner {
+        background-color: rgb(0, 0, 0);
+        min-height: 100vh;
+      }
+    
